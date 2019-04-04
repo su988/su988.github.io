@@ -166,7 +166,7 @@ COMMON CSS FOR ALL THREE PROJECT PAGE
   }
 }
 
-@media (min-width: 320px) and (max-width: 836px) {
+@media (min-width: 220px) and (max-width: 836px) {
 
   .nav-parent {
     width: 90%;
