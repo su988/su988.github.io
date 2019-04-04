@@ -1,0 +1,225 @@
+/************************* 
+
+COMMON CSS FOR ALL THREE PROJECT PAGE
+
+**************************/
+
+/************************* 
+    NAVIGATION STARTS HERE 
+**************************/
+
+#sticky-nav {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#sticky-nav.scrolled {
+  background-color: #f4f4f4da !important;
+  transition: background-color 200ms linear;
+}
+
+.nav-child h1 a,
+.nav-list li a {
+  color: #fff;
+}
+
+.nav-text.scrolled-text {
+  color: #000;
+}
+
+/* change nav width below 786 px  to 100% or something*/
+
+.nav-parent { 
+  width: 800px;
+  margin: 0 auto;
+}
+
+/************************* 
+    NAVIGATION ENDS HERE 
+**************************/
+
+/************************* 
+    HEADER STARTS HERE 
+**************************/
+
+#header {
+  height: 600px;
+  margin-bottom: 100px;
+}
+
+/************************* 
+    HEADER ENDS HERE 
+**************************/
+
+/************************* 
+    INTRODUCTION , RESEARCH STARTS HERE 
+**************************/
+
+
+#introduction,
+#research,
+#empathy,
+#persona,
+#user-flow,
+#wireframe,
+#design {
+  height: 300px; 
+  width: 50%;
+  margin: 0 auto;
+  
+}
+
+.intro-text,
+.research-text,
+.empathy-text,
+.persona-text,
+.user-flow-text,
+.wireframe-text,
+.design-text {
+  line-height: 1.5;
+  
+}
+
+/************************* 
+    ENDS HERE 
+**************************/
+
+/************************* 
+    IMAGE STARTS HERE 
+**************************/
+
+.image-intro,
+.image-research,
+.image-persona,
+.image-empathy,
+.image-user-flow,
+.image-wireframe,
+.image-design {
+  height: 500px;
+  margin-bottom: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+}
+
+#prototype {
+  width: 375px;
+  margin: -100px auto 0 auto;
+  border: 1px solid black;
+  height: 667px;
+  transform: scale(0.7);
+
+}
+
+/************************* 
+
+    CSS FOR EASYMED PAGE
+
+**************************/
+
+
+
+.med-header {
+  background-image: url("images/med2.jpg");
+  background-size: cover;
+  background-position: -10% -10%; 
+}
+
+.med-intro {
+  background-image: url("images/problem.jpg");
+}
+
+.med-research {
+  background-image: url('images/research.jpg');
+}
+
+.med-persona {
+  background-image: url('images/persona.jpg'); 
+}
+
+.med-user-flow {
+  background-image: url('images/user-flow.png');
+  height: 300px;
+  margin-top: -50px;
+}
+
+.med-wireframe {
+  background-image: url('images/wireframe.jpg');
+  /* background-position-y: 50%; */
+  
+}
+
+.med-design {
+  background-image: url('images/design.jpg');
+  /* background-position-y: 50%; */
+}
+
+@media (min-width: 837px) and (max-width: 920px) {
+  #introduction,
+  #research,
+  #persona,
+  #user-flow,
+  #wireframe,
+  #design {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 836px) {
+
+  .nav-parent {
+    width: 90%;
+  }
+
+  #header {
+    height: 500px;
+  }
+
+  #introduction,
+  #research,
+  #empathy,
+  #persona,
+  #user-flow,
+  #wireframe,
+  #design {
+    width: 90%;
+    margin: 0 auto;
+    height: 350px;
+  }
+
+  #user-flow {
+    height: 250px;
+  }
+
+  #introduction {
+    height: 380px;
+  }
+
+  .image-intro,
+  .image-research,
+  .image-persona,
+  .image-empathy,
+  .image-user-flow,
+  .image-wireframe,
+  .image-design {
+    height: 200px;
+  }
+
+  
+  .med-header {
+      background-position: 60% 60%; 
+      background-position-y: 40px;
+    }
+
+  .med-intro,
+  .med-research,
+  .med-persona,
+  .med-empathy,
+  .med-user-flow,
+  .med-wireframe {
+    margin-bottom: 50px;  
+  }
+
+
+}

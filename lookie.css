@@ -1,0 +1,79 @@
+.lookie-header {
+  background-image: url('images/lookie/header.jpg');
+  background-size: cover;
+}
+
+.lookie-intro {
+  background-image: url('images/lookie/intro.jpg');
+  /* background-color: #30446B; */
+}
+
+.lookie-research {
+  background-image: url('images/lookie/research.jpg');
+}
+
+.lookie-persona {
+  background-image: url('images/lookie/persona.jpg');
+}
+
+.lookie-empathy {
+  background-image: url('images/lookie/map.png');
+}
+
+.lookie-user-flow {
+  background-image: url('images/lookie/flow.png');
+}
+
+.lookie-wireframe {
+  background-image: url('images/lookie/wireframe.png');
+}
+
+.lookie-design {
+  background-image: url('images/lookie/design.jpg');
+}
+
+#prototype-lookie {
+  width: 275px;
+  margin: 0 auto;
+  height: 512px;
+  background-image: url('images/lookie/phone.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.click-proto {
+  width: 14%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+@media (max-width: 1050px) {
+  #introduction {
+    height: 450px;
+  }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 836px) {
+  .lookie-header {
+    background-image: url('images/lookie/header2.jpg');   
+  }
+
+  .click-proto {
+    width: 50%;
+  }
+
+  .lookie-intro,
+  .lookie-empathy {
+    height: 200px;
+  }
+
+  #research {
+    height: 400px;
+  }
+
+  #introduction {
+    height: 300px;
+  }
+}

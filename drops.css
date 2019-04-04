@@ -1,0 +1,60 @@
+.drops-header {
+  background-image: url('images/drops/header.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 100px;
+  background-color: #9B9B9B;
+
+}
+
+.drops-intro {
+  background-image: url('images/drops/intro.png');
+  
+}
+
+.drops-research {
+  background-image: url('images/drops/style-guide.jpg');
+}
+
+.drops-persona {
+  background-image: url('images/drops/persona.jpg');
+}
+
+.drops-user-flow {
+  background-image: url('images/drops/user-flow.jpg');
+}
+
+.drops-wireframe {
+  background-image: url('images/drops/wireframe.png');
+}
+
+.drops-design {
+  background-image: url('images/drops/design.jpg');
+}
+
+#prototype-drops {
+  width: 375px;
+  margin: 0 auto;
+  height: 812px;
+  border: 1px solid black;
+  transform: scale(0.7);
+}
+
+@media (min-width: 320px) and (max-width: 836px) {
+  .drops-header {
+    background-position: 50%;
+  }
+
+  #introduction,
+  #research,
+  #empathy,
+  #persona,
+  #user-flow,
+  #wireframe {
+    height: 280px;
+  }
+
+  #design {
+    height: 240px;;
+  }
+}
