@@ -323,6 +323,7 @@ html {
       
   }
 
+  
   .nav-list li:last-child {
     margin-right: 20px;
   }
@@ -372,5 +373,7 @@ html {
     padding-top: 20px;
   }
 
-  
+  .overlay {
+    display: none;
+  }
 }
