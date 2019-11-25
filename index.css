@@ -175,7 +175,7 @@ html {
 **************************/
 
 .footer-wrapper {
-  min-height: 100%;;
+  min-height: 100%;
   margin-top: 100px;
   background: #f4f4f4;
   padding-bottom: 20px;
@@ -277,7 +277,7 @@ html {
   }
 
   .footer-parent {
-    width: 85%;
+    width: 60%;
     margin: 0 auto;     
   }
 
