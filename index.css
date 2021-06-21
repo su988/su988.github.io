@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,7 +14,9 @@ html {
   scroll-behavior: smooth;
 }
 
-* {-webkit-font-smoothing: antialiased;}
+* {
+  -webkit-font-smoothing: antialiased;
+}
 
 .main {
   font-family: 'Raleway', sans-serif;
@@ -38,10 +41,9 @@ html {
 .nav-parent {
   display: flex;
   justify-content: space-between;
-  
 }
 
-.nav-child h1 a{
+.nav-child h1 a {
   color: #000;
   text-decoration: none;
   font-size: 16px;
@@ -88,13 +90,12 @@ html {
   letter-spacing: 1px;
 }
 .hero h4 {
-  color: #9B9B9B;
+  color: #9b9b9b;
 }
 
 /************************* 
     HERO ENDS HERE 
 **************************/
-
 
 /************************* 
     PROJECT LIST STARTS HERE 
@@ -108,22 +109,20 @@ html {
   background-image: url('images/med.jpg');
   background-size: cover;
   background-position: 50% 50%;
-  
 }
 
 #second-project {
-  background-color: #30446B;
+  background-color: #30446b;
   background-image: url('images/lookie.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 #third-project {
   background-image: url('images/drops.jpg');
   background-size: cover;
-  background-position: 70% 70%
+  background-position: 70% 70%;
 }
 
 #fourth-project {
@@ -144,16 +143,15 @@ html {
   padding: 20px;
   opacity: 0;
   cursor: pointer;
-  transition-duration: .6s ease;
+  transition-duration: 0.6s ease;
   -webkit-transition: all 0.6s ease;
-  -moz-transition:    all 0.6s ease;
-  -o-transition:      all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
   color: wheat;
   letter-spacing: 3px;
-  
 }
 
-                      /************************* 
+/************************* 
                         OVERLAY for PROJECT
                     **************************/
 
@@ -181,8 +179,6 @@ html {
   padding-bottom: 20px;
 }
 
-
-
 .footer-child ul li {
   list-style: none;
 }
@@ -193,24 +189,22 @@ html {
 
 .footer-child h4 {
   font-size: 14px;
-  color: #9B9B9B;
+  color: #9b9b9b;
 }
 
 /************************* 
     FOOTER ABOUT ME
 **************************/
 
-
-
 .about {
-  width: 80%
+  width: 80%;
 }
 
 .email-text {
   margin-top: 50px;
   margin-bottom: -10px;
   font-size: 12px;
-  color: #9B9B9B;
+  color: #9b9b9b;
 }
 
 .email {
@@ -230,15 +224,13 @@ html {
   margin-right: 20px;
 }
 
-
 .principle {
   font-size: 12px;
   margin-top: 2px;
-
 }
 
 .fab {
-  color: #9B9B9B;
+  color: #9b9b9b;
 }
 /************************* 
     FOOTER EDUCATION STARTS HERE
@@ -247,7 +239,7 @@ html {
 #school {
   margin-top: 30px;
   letter-spacing: 1.2px;
-  font-size: .7em;
+  font-size: 0.7em;
 }
 
 #subject {
@@ -261,9 +253,8 @@ html {
 **************************/
 
 @media (min-width: 1024px) {
-  
   .wrapper {
-    width: 800px; 
+    width: 800px;
     margin: 0 auto;
   }
 
@@ -273,28 +264,26 @@ html {
 
   .footer-parent {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
   }
 
   .footer-parent {
     width: 60%;
-    margin: 0 auto;     
+    margin: 0 auto;
   }
 
   .footer-child {
-    width: 30%;;
+    width: 30%;
   }
 
   #footer-about {
-    max-width: 80%;;
+    max-width: 80%;
   }
-  
 }
 
 @media (min-width: 836px) and (max-width: 1024px) {
-  
   .wrapper {
-    width: 80%; 
+    width: 80%;
     margin: 0 auto;
   }
 
@@ -302,28 +291,24 @@ html {
   p.tag-line {
     width: 60%;
   }
-  
+
   .footer-parent {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
   }
 
   #footer-about {
-  max-width: 80%;;
-}
-  
+    max-width: 80%;
+  }
 }
 
 /* mobile */
 
 @media (min-width: 320px) and (max-width: 836px) {
-  
   #sticky-nav {
-      width: 100%; 
-      
+    width: 100%;
   }
 
-  
   .nav-list li:last-child {
     margin-right: 20px;
   }
@@ -342,7 +327,7 @@ html {
     height: 300px;
   }
 
-  #first-project { 
+  #first-project {
     background-position: 85% 100%;
   }
 
@@ -359,13 +344,13 @@ html {
 
   #footer-about:after,
   #design-footer:after {
-    content: " ";
+    content: ' ';
     display: block;
     position: absolute;
     height: 1px;
     background: rgb(206, 206, 206);
     width: 100%;
-    left: 0; 
+    left: 0;
     margin-top: 10px;
   }
 
